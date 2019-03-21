@@ -1,0 +1,132 @@
+body {
+  background-color: #fdfdfd;
+  font-family: Arial;
+}
+
+ul.lista{
+  display: flex;
+}
+
+li {
+  list-style: none;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  border-bottom-style: inset;
+  font-size: 20px;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+
+pre { font-size: 1.2em; }
+
+input {
+  border: 1px solid #8bbc37;
+  border-radius:4px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dicas-item {
+  font-size: 16px;
+}
+
+
+#btApostar {
+  background-color: #8bbc37;
+  border: 1px solid #8bbc37;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 29px;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#btJogar {
+  margin:auto
+}
+
+.fonteAzul { color: blue; }
+.oculta { display: none; }
+.exibe { display: inline; }
+.italico { font-style: italic;}
+
+.vencedor {
+  color: green;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+
+.content {
+  display: block;
+  clear: both;
+}
+
+#outChances {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#outDica {
+  text-align: center;
+}
+
+.alerta-usuario {
+  display: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.hide{
+  display: none
+}
+
+.show {
+  display: block
+}
+
+.ganhou {
+  color:green;
+}
+
+.perdeu {
+  color:red;
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  margin: 1rem;
+  width: 250px;
+}
+
+.card-item {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-item > p:first-child  {
+  color:#969696;
+  font-size: 12px
+}

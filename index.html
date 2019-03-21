@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Jogo Descubra o Número</title>
+</head>
+
+<body>
+  <div class="content">
+
+      <h1>Jogo Descubra o Número</h1>
+      <h2 id="outDica">Dica: É um número entre 1 e 100</h2>
+      <input type="button" value="Jogar Novamente" id="btJogar" class="oculta">
+
+
+    <div class="flex area-jogador" style="flex-direction: column"> <br>
+      <span>Número </span><br>
+      <input type="text" id="inNumero" autofocus><br>
+
+      <input type="button" value="Apostar" id="btApostar"><br>
+    </div>
+
+    <div class="alerta-usuario">
+      <strong>Informações</strong>
+      <ul>
+        <li class="dicas-item">1. O número precisa ser maior que 0</li>
+        <li class="dicas-item">2. O número precisa ser menor que 100</li>
+        <li class="dicas-item">3. Somente números são permitidos</li>
+      </ul>
+    </div>
+
+    <div class="flex">
+      <div class="card card-item">
+        <p>NÚMEROS APOSTADOS </p>
+        <ul class="flex" id="outErros"> </ul>
+      </div>
+
+      <div class="card card-item">
+        <p>CHANCES</p>
+        <p id="outChances"> 5 </p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/ex5_2.js"></script>
+</body>
+
+</html>
